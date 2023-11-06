@@ -1,0 +1,9 @@
+2023-11-06 15:35:45,969 - __main__ - INFO - perform_rectangle with args: 5, 6 Start
+2023-11-06 15:35:45,970 - __main__ - INFO - rectangle init start
+2023-11-06 15:35:45,970 - __main__ - INFO - rectangle init end
+2023-11-06 15:35:45,970 - __main__ - DEBUG - создан прямоугольник: Прямоугольник со сторонами 5 и 6
+2023-11-06 15:35:45,970 - __main__ - DEBUG - периметр: 22, площадь: 30
+2023-11-06 15:35:45,970 - __main__ - INFO - perform_rectangles End
+2023-11-06 15:36:15,555 - __main__ - INFO - perform_rectangle with args: 5, -1 Start
+2023-11-06 15:36:15,556 - __main__ - INFO - rectangle init start
+2023-11-06 15:36:15,556 - __main__ - ERROR - Error perform_rectangle: NegativeValueError
