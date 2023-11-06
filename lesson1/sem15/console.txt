@@ -1,0 +1,33 @@
+(venv) mishinaekaterin@MacBook-Air-Ekaterina pythonProject5 % cd lesson1/sem15/
+(venv) mishinaekaterin@MacBook-Air-Ekaterina sem15 % python Rectangle.py -h
+usage: Rectangle [-h] [-a WIDTH] [-b HEIGHT] [-c]
+
+Выполняет операции над прямоугольниками
+
+options:
+  -h, --help            show this help message and exit
+  -a WIDTH, --width WIDTH
+                        сторона a
+  -b HEIGHT, --height HEIGHT
+                        сторна b
+  -c, --console         вывод в консоль
+
+спасибо
+(venv) mishinaekaterin@MacBook-Air-Ekaterina sem15 % python Rectangle.py -a 5 -b 6 -c
+Вывод:
+pydoc   Прямоугольник: Прямоугольник со сторонами 5 и 6     python3-config      python3.11          python3.11-intel64
+        периметер: 22
+        площадь: 30
+(venv) mishinaekaterin@MacBook-Air-Ekaterina sem15 % python Rectangle.py -a 5 -b -1
+Traceback (most recent call last):
+  File "/Users/mishinaekaterin/PycharmProjects/pythonProject5/lesson1/sem15/Rectangle.py", line 99, in <module>
+    perform_rectangle()
+  File "/Users/mishinaekaterin/PycharmProjects/pythonProject5/lesson1/sem15/Rectangle.py", line 93, in perform_rectangle
+    raise ex
+  File "/Users/mishinaekaterin/PycharmProjects/pythonProject5/lesson1/sem15/Rectangle.py", line 84, in perform_rectangle
+    rectangle = Rectangle(my_namespace.width, my_namespace.height)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/mishinaekaterin/PycharmProjects/pythonProject5/lesson1/sem15/Rectangle.py", line 34, in __init__
+    raise Exception('NegativeValueError')
+Exception: NegativeValueError
+(venv) mishinaekaterin@MacBook-Air-Ekaterina sem15 %
